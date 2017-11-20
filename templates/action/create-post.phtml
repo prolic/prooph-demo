@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <form name="sentMessage" id="submitPostForm" novalidate>
+            <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                    <label>Title</label>
+                    <input type="text" class="form-control" placeholder="Title" id="title" required data-validation-required-message="Please enter a title.">
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="form-group floating-label-form-group controls">
+                    <label>Content</label>
+                    <textarea rows="5" class="form-control" placeholder="Content" id="content" required data-validation-required-message="Please enter a content."></textarea>
+                    <p class="help-block text-danger"></p>
+                </div>
+            </div>
+            <br>
+            <div id="success"></div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-secondary" id="submitPostButton">Send</button>
+            </div>
+        </form>
+    </div>
+</div>
